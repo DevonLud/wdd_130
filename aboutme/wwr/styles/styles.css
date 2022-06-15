@@ -17,7 +17,7 @@ body, .book, .join{
 header, .book:hover, .join:hover {
     background-color:rgba(20,30,13, .7);
 }
-nav a:hover, #background,
+#background,
 .msg,
 footer {
     background-color: #6f7364;
