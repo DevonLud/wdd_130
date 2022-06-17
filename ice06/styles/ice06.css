@@ -1,43 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-
-body{
-    margin: none;
-    padding: none;
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px;
-    justify-items: center; 
+    font-size: 6em;
+    letter-spacing: .3em;
+    justify-items: center;
 }
-#left   {
-    color: black;
-    font-size: 95px;
-    font-family: 'Lora', 'Times New Roman', serif;
-    letter-spacing: 35px;
-    grid-row: 1/2;
-    grid-column: 1/3;
-    position: relative;
-}
-#bottom {
-    color: #c62a2c;
-    font-size: 55px;
-    font-family: 'Lora', 'Times New Roman', serif;
-    position: relative;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    letter-spacing: 20px;
-}
-.cherry {
-    position: relative;
-    z-index: -1;
+
+.cherries {
     grid-column: 1/2;
     grid-row: 1/3;
 }
-.color-box{
-    background-color: #B8B9B9;
+
+.title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    /* font-size: 2em; */
+}
+
+.label {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #9a1118;
+}
+
+.grey {
+    background-color: #b9b8b9;
+    width: 100%;
+    height: 700px;
     position: relative;
+    z-index: -1;
     grid-column: 2/3;
     grid-row: 1/3;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
 }
